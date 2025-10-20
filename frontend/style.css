@@ -1,0 +1,6 @@
+body { font-family: Georgia, serif; padding: 20px; }
+h1 { font-size: 2em; }
+input { display: block; margin: 5px 0; padding: 8px; width: 250px; }
+button { margin: 4px 0; padding: 6px 10px; }
+#productList { margin-top: 20px; }
+.product { border-bottom: 1px solid #ccc; padding: 5px 0; }

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IBM NJ Product Catalog (Demo)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Product Catalog (Demo)</h1>
+
+  <h2>Auth</h2>
+  <input id="username" placeholder="username" />
+  <input id="password" type="password" placeholder="password" />
+  <button onclick="register()">Register</button>
+  <button onclick="login()">Login</button>
+
+  <h2>Products</h2>
+  <h3>Add product</h3>
+  <input id="name" placeholder="name" />
+  <input id="price" placeholder="price" />
+  <input id="description" placeholder="description" />
+  <button onclick="addProduct()">Add</button>
+
+  <div id="productList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
